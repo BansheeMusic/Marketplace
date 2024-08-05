@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 
 
-contract MusicNFT is ERC721URIStorage {
+contract BansheeMarketplace is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter public _tokenIds;
     
