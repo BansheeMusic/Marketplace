@@ -6,7 +6,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 
 
-
+// Marketplace Smart Contract minting ERC721 tokens
 contract BansheeMarketplace is ERC721URIStorage {
     using Counters for Counters.Counter;
     Counters.Counter public _tokenIds;
